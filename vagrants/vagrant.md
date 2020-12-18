@@ -19,12 +19,13 @@ Here are some terms and my general thoughts about `vagrant` (a tool I 💖)
   - [vagrant](https://www.vagrantup.com/)
   - [Vagrant Cloud box search](https://app.vagrantup.com/boxes/search)
     - [centos org](https://app.vagrantup.com/centos)
-    - [centos/8 box](https://app.vagrantup.com/centos/boxes/8)
+      - [centos/8 box](https://app.vagrantup.com/centos/boxes/8)
+    - [generic org](https://app.vagrantup.com/generic) - lots of great boxes
   - [providers (hypervisors)](https://www.vagrantup.com/docs/providers)
     - [virtualbox](https://www.vagrantup.com/docs/providers/virtualbox)
   - [provisioning](https://www.vagrantup.com/docs/provisioning)
     - [shell scripts](https://www.vagrantup.com/docs/provisioning/shell)
-      - options: ****
+      - options:
         - [inline](https://www.vagrantup.com/docs/provisioning/shell#inline) for [heredocs](https://ruby-doc.org/core-2.5.0/doc/syntax/literals_rdoc.html#label-Here+Documents) 
         - [path](https://www.vagrantup.com/docs/provisioning/shell#path) relative to the `Vagrantfile`
     - [ansible overview](https://www.vagrantup.com/docs/provisioning/ansible_intro)
