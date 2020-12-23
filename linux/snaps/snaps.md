@@ -1,5 +1,7 @@
 # snaps
 
+(WIP) - often I go on meandering thoughts and comparisons below that may not be 100% coherent nor complete (yet).
+
 ## History / high-level status
 
 - `Snap` is a software packaging and deployment system
@@ -72,4 +74,9 @@
       - when you push changes, new snaps are built for all distros
   - `Snap store` ~= `Docker Hub`
       - when you are ready you can promote the snap through a series of channels (i.e. beta -> candidate -> stable)
+
+## Installing
+
+- Ubuntu comes with `snapd` output the box
 - [How to install support for snaps](https://snapcraft.io/docs/installing-snapd)
+
