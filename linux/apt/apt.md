@@ -2,9 +2,12 @@
 
 NOTE: both [debian.md](debian.md) and [apt.md](apt.md) are WIP - rough rough drafts and likely need to be merged 
 
+[ ] TODO - pickup from what seems to be top level entry point to docs
+- https://wiki.debian.org/PackageManagement
+- 
 ## Terms 
 
-- `apt` 
+- [`apt` - `Advanced Package Tool`](https://wiki.debian.org/Apt) 
 - `distro` - I like to think of this as a continuously developed series of releases/repositories (packages) that comprise a particular variant of `linux` that runs on top of the `linux` `kernel`
 - [`packages`](https://www.debian.org/distrib/packages)
   - sections (of packages)
