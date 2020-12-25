@@ -6,9 +6,20 @@ NOTE: both [debian.md](debian.md) and [apt.md](apt.md) are WIP - rough rough dra
 
 - [Debian project site](https://www.debian.org/)
 - [Debian wiki](https://wiki.debian.org/)
+- [Wikipedia Debian page](https://en.wikipedia.org/wiki/Debian)
+
+## History
+
+- 1993-09-15 - 0.01 initial release
+- 1996-06-17 - 1.1 first stable release
+- 2020-12-05 - 10.7 Buster release
+- TBD - 11 Bullseye release
+
 
 ## Releases
 
+- Release `codenames` are from Toy Story characters
+- `unstable` trunk / `Sid` - the kid who regularly destroys his toys
 
 - [Debian releases](https://wiki.debian.org/DebianReleases)
 - [Debian releases info](https://www.debian.org/releases/)
@@ -57,3 +68,5 @@ NOTE: both [debian.md](debian.md) and [apt.md](apt.md) are WIP - rough rough dra
   - `LTS` releases - **5 years**
     - [LTS docs](https://wiki.debian.org/LTS)
 
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>

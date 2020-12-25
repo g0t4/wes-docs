@@ -75,3 +75,7 @@ flowchart LR;
 - `ESM` - `Extended Security Maintenance` is available for `LTS` releases since `12.04`   
 
 TODO - consider adding more of the page summarized as I see fit here.
+
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
