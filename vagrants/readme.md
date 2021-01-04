@@ -1,6 +1,13 @@
-## Vagrant basics
+# vagrants
 
-Here are some terms and my general thoughts about `vagrant` (a tool I 💖)
+My thoughts about `vagrant` (a tool I 💖), especially for learning!
+
+## Sections
+
+- [`vagrantfile`](./vagrantfile.md)
+- [`snapshots`](./snapshots.md)
+
+## Vagrant terms
 
 - `provider` - a (intentional, well designed) leaky abstraction of hypervisors (`VirtualBox`, `Hyper-V`, `VMWare`, `docker`, etc)
   - abstraction in the sense that `vagrant` encapsulates many commonalities:
