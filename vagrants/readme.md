@@ -6,6 +6,7 @@ My thoughts about `vagrant` (a tool I 💖), especially for learning!
 
 - [`vagrantfile`](./vagrantfile.md)
 - [`snapshots`](./snapshots.md)
+- [`provisioners`](./provisioners.md)
 
 ## Providers - aka Hypervisor
 
@@ -30,25 +31,6 @@ My thoughts about `vagrant` (a tool I 💖), especially for learning!
     - [VMware](https://www.vagrantup.com/docs/providers/vmware)
     - [docker](https://www.vagrantup.com/docs/providers/docker) - if you are familiar with docker-toolbox or even Docker Desktop for Mac/Windows then this will feel familiar, vagrant sets up a VM with docker and abstracts that away as if you are just working with containres as your virtualization layer
     - additional providers can be installed via [provider plugins](https://www.vagrantup.com/docs/plugins/providers)
-
-## Provisioner - a mechanism of installing and/or configuring software
-
-- `provisioner` - configuration management to predictably and automatically tailor a VM to your needs beyond what is provided in the `box` which can be thought of as a starting point.
-  - The box too was once `provisioned` so `provisioning` can be thought of as layered or hierarchical.
-- [docs](https://www.vagrantup.com/docs/provisioning), and a few provisioners I use in courses:
-  - [shell scripts](https://www.vagrantup.com/docs/provisioning/shell)
-    - easiest (no other tools to worry about just the fun that is shell script syntax 😉)
-    - options:
-      - [inline](https://www.vagrantup.com/docs/provisioning/shell#inline) 
-        - [heredocs](https://ruby-doc.org/core-2.5.0/doc/syntax/literals_rdoc.html#label-Here+Documents)
-      - [path](https://www.vagrantup.com/docs/provisioning/shell#path)
-        - relative to the `Vagrantfile`
-  - [ansible overview](https://www.vagrantup.com/docs/provisioning/ansible_intro)
-    - [ansible](https://www.vagrantup.com/docs/provisioning/ansible) 
-      - executed on host to configure guest
-    - [ansible_local](https://www.vagrantup.com/docs/provisioning/ansible_local) 
-      - executed on `self-configuring` guest - local connection type
-      - the guest is both the controller and the managed node
 
 ## Docs / project site
 
