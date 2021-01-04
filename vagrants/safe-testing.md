@@ -1,3 +1,0 @@
-# `vagrant` rocks for safely testing complex changes
-
-- `vagrant snapshot` allows you to capture and restore a point in time across 1+ machines, great for testing changes that have taken a while to get into and you don't know if one step will fail and if it does with `snapshot` you can restore just moments before and try again instead of start from scratch (and perhaps sit through a half hour package install just to get another chance to try one command that may fail yet again and require repeating it all again!
