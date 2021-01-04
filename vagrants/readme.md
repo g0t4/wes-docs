@@ -34,23 +34,33 @@ My thoughts about `vagrant` (a tool I 💖), especially for learning!
 ## Provisioner - a mechanism of installing and/or configuring software
 
 - `provisioner` - configuration management to predictably and automatically tailor a VM to your needs beyond what is provided in the `box` which can be thought of as a starting point.
-  - The box too was once `provisioned` so `provisioning` can be thought of as layered or hierarchical. 
+  - The box too was once `provisioned` so `provisioning` can be thought of as layered or hierarchical.
+- [docs](https://www.vagrantup.com/docs/provisioning), and a few provisioners I use in courses:
+  - [shell scripts](https://www.vagrantup.com/docs/provisioning/shell)
+    - easiest (no other tools to worry about just the fun that is shell script syntax 😉)
+    - options:
+      - [inline](https://www.vagrantup.com/docs/provisioning/shell#inline) 
+        - [heredocs](https://ruby-doc.org/core-2.5.0/doc/syntax/literals_rdoc.html#label-Here+Documents)
+      - [path](https://www.vagrantup.com/docs/provisioning/shell#path)
+        - relative to the `Vagrantfile`
+  - [ansible overview](https://www.vagrantup.com/docs/provisioning/ansible_intro)
+    - [ansible](https://www.vagrantup.com/docs/provisioning/ansible) 
+      - executed on host to configure guest
+    - [ansible_local](https://www.vagrantup.com/docs/provisioning/ansible_local) 
+      - executed on `self-configuring` guest - local connection type
+      - the guest is both the controller and the managed node
 
-## Links
+## Docs / project site
 
 - [vagrant](https://www.vagrantup.com/)
+- [docs](https://docs.vagrantup.com/)
+
+## Finding boxes with `Vagrant Cloud`
+
 - [Vagrant Cloud box search](https://app.vagrantup.com/boxes/search)
   - [centos org](https://app.vagrantup.com/centos)
     - [centos/8 box](https://app.vagrantup.com/centos/boxes/8)
   - [generic org](https://app.vagrantup.com/generic) - lots of great boxes
-  - [provisioning](https://www.vagrantup.com/docs/provisioning)
-    - [shell scripts](https://www.vagrantup.com/docs/provisioning/shell)
-      - options:
-        - [inline](https://www.vagrantup.com/docs/provisioning/shell#inline) for [heredocs](https://ruby-doc.org/core-2.5.0/doc/syntax/literals_rdoc.html#label-Here+Documents)
-        - [path](https://www.vagrantup.com/docs/provisioning/shell#path) relative to the `Vagrantfile`
-    - [ansible overview](https://www.vagrantup.com/docs/provisioning/ansible_intro)
-      - [ansible](https://www.vagrantup.com/docs/provisioning/ansible) executed on host to configure guest
-      - [ansible_local](https://www.vagrantup.com/docs/provisioning/ansible_local) executed on `self-configuring` guest - think ansible's local connection type
 
 ## Performance tips/considerations:
 
