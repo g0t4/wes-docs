@@ -4,10 +4,10 @@ My thoughts about `vagrant` (a tool I 💖), especially for learning!
 
 ## Sections
 
-- [`vagrantfile`](./vagrantfile.md)
-- [`snapshots`](./snapshots.md)
-- [`provisioners`](./provisioners.md)
-- [`providers`](./providers.md)
+- [`vagrantfile`](./vagrantfile.md) - declarative / configuration as code approach to defining environments (machine(s))
+- [`snapshots`](./snapshots.md) - point in time captures of the entire state of the VM! (or machine)
+- [`provisioners`](./provisioners.md) - aka configuration management
+- [`providers`](./providers.md) - aka hypervisors
 
 ## Docs / project site
 
