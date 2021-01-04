@@ -9,10 +9,12 @@ My thoughts about `vagrant` (a tool I 💖), especially for learning!
 - [`provisioners`](./provisioners.md) - aka configuration management
 - [`providers`](./providers.md) - aka hypervisors
 
-## Docs / project site
+## Links
 
 - [vagrant](https://www.vagrantup.com/)
 - [docs](https://docs.vagrantup.com/)
+- <https://github.com/hashicorp/vagrant>
+  - Source code is highly readable, take for example the ansible_local provisioner's code to ensure the ansible controller is installed on the guest!
 
 ## Finding boxes with `Vagrant Cloud`
 
