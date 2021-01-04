@@ -15,6 +15,7 @@ My thoughts about `vagrant` (a tool I 💖), especially for learning!
 - [docs](https://docs.vagrantup.com/)
 - <https://github.com/hashicorp/vagrant>
   - Source code is highly readable, take for example the ansible_local provisioner's code to ensure the ansible controller is installed on the guest!
+  - Source code is the golden version of the truth even if it is not as concise as well written docs. Spelunk the code, I always feel so much better than when I just read docs and try to remember esoteric explanations that I often find are out of date when I just grab the code and read through it. And then I like to do something with said source, like modify it or build something on top of it to demonstrate what I think it is doing and verify IIUC.
 
 ## Finding boxes with `Vagrant Cloud`
 
