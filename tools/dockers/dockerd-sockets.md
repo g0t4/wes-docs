@@ -1,6 +1,8 @@
 # Docker Engine API - socket types
 
-- Server config:
+## Server - config sockets to listen on
+
+- `dockerd -H/-host` cli flag 
   - `dockerd -H` specifies the socket(s) 
   - multiple `-H` allowed to listen on multiple sockets
   - `dockerd` reference has a help section on socket types
