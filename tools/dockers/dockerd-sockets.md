@@ -7,9 +7,22 @@
   - multiple `-H` allowed to listen on multiple sockets
   - `dockerd` reference has a help section on socket types
     - https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-socket-option
-- Client config:
-  - `docker -H` or `DOCKER_HOST` env var to select socket to connect to
-  - Or, contexts!
+
+## Client config:
+
+- Host selection, last detected wins:
+  - Context (has its own hierarchy of selection)
+    - `current docker context` 
+      - Run `docker context ls`
+        - Current is denoted by `*`
+      - Run `docker context inspect` to drill into details
+    - `DOCKER_CONTEXT` env var holds name of context to use instead of `current`
+    - `docker -c CONTEXT_NAME` selects a context name for this one invocation
+  - `"LEGACY"` options
+    - I call these legacy because they came first and are intended to be replaced by `context`
+      - client config file
+      - `DOCKER_HOST` env var 
+      - `docker -H` CLI arg
 
 ## 1. unix domain socket (DEFAULT)
 

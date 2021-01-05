@@ -27,7 +27,9 @@
 
 - YES for dev/testing
 - **NOT for production**
-
+- Do not use after installing docker via another method
+- Do not use if you need a specific version of docker (latest is installed)
+  
 ### Review the script(s), why:
 
 - Learn how they work
