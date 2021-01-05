@@ -14,3 +14,4 @@ TODO - much more to add here
 ## plugins I want to look into
 
 - [vagrant-parallels 2.1.0](https://rubygems.org/gems/vagrant-parallels)
+- [host /etc/host updater](https://github.com/agiledivider/vagrant-hostsupdater) - so on up/destroy an entry can be added automatically to /etc/hosts if your VM has both a hostname and a private_network interface.
