@@ -1,5 +1,9 @@
 # Searching for Ubuntu packages
 
+- [ ] TODO
+  - [ ] searching from cli options
+  - [ ] snap-store in focal for both `packages` and `snaps`
+
 - open https://packages.ubuntu.com
 - browse by `release` `codename` (i.e. `focal`)
   - https://packages.ubuntu.com/focal
