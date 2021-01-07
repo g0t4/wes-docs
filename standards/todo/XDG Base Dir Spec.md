@@ -1,6 +1,7 @@
 # XDG Base Directory Specification
 
-[ ] TODO
+- [ ] TODO
+  - https://wiki.archlinux.org/index.php/XDG_Base_Directory
 
 - https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
 - spec for where to look for files, by specifying 1+ base dirs to look inside.
