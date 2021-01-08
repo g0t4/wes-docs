@@ -1,5 +1,6 @@
 # archlinux maintenance
 
+- [ ] TODO https://wiki.archlinux.org/index.php/System_maintenance
 
 - `systemctl --failed` look for failed services
 - logs

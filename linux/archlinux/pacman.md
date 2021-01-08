@@ -2,8 +2,6 @@
 
 - [ ] TODO - distill from here as needed PRN.
   - [ ] https://wiki.archlinux.org/index.php/Pacman
-  - [ ] https://wiki.archlinux.org/index.php/System_maintenance
-  - [ ] 
 
 ## primary arguments
 
