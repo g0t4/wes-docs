@@ -1,5 +1,9 @@
-# pacman 
+# pacman
 
 https://wiki.archlinux.org/index.php/Pacman
 
-- [ ] TODO
+## primary arguments
+
+| short | long | description |
+| ----- | ---- | ----------- |
+
