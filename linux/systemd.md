@@ -2,6 +2,7 @@ WIP - find a way to organize succintly and neatly link into man pages
 
 # systemd
 
+- `man systemd.index` is your best friend :)
 - `systemd` - PID 1 `system` and `service manager`
 
   - instances (not invoked by users normally)
@@ -31,6 +32,12 @@ WIP - find a way to organize succintly and neatly link into man pages
 
 ### Units
 
+```sh
+systemctl list-units
+systemctl list-units 'docker.*' # arguments can be a PATTERN to target multiple units, or just pass each unit explicitly space delimited
+systemctl list-unit-files
+```
+
 - 11 Unit types (currently)
 - [systemd.unit(5)](https://jlk.fjfi.cvut.cz/arch/manpages/man/systemd.unit.5.en)
 
@@ -41,6 +48,11 @@ WIP - find a way to organize succintly and neatly link into man pages
 
 ### Socket Units
 
+```sh
+systemctl list-sockets
+systemctl list-sockets --all # include inactive 
+systemctl list-sockets docker # target docker socket 
+```
 - [systemd.socket(5)](https://jlk.fjfi.cvut.cz/arch/manpages/man/systemd.socket.5.en)
 - encapsulate local IPC
   - or, network sockets
@@ -71,8 +83,21 @@ WIP - find a way to organize succintly and neatly link into man pages
 
 ### Timer Units
 
-- triggering other units based on timers
+
+```sh
+systemctl list-timers
+systemctl list-timers --all # include inactive
+```
+
+
+- think of a cron like apparatus 
 - [systemd.timer(5)](https://jlk.fjfi.cvut.cz/arch/manpages/man/systemd.timer.5.en)
+
+### Job
+
+```sh
+systemctl list-jobs
+```
 
 ### Swap units
 
