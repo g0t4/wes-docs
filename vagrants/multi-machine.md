@@ -29,8 +29,9 @@ For example,
 
 ## Looping for multi-machines
 
-- Looping can be used to build dynamic config objects with 1+ machines!
-- `2..3` is a range
+- A `Vagrantfile` is `ruby` code that is executed to `build up` a `configuration object` which describes the `desired state` for vagrant to enforce.
+  - So, exploit the `imperative benefits` of `configuration as code` to rapidly create complex configs with `loops` and `variable` `interpolation` and anything in the ruby language your heart desires!
+- Ranges: `2..5` is a range
 - GOTCHA to avoid with looping: `for...in` vs `.each`
   - https://www.vagrantup.com/docs/vagrantfile/tips#loop-over-vm-definitions
   - do use `(1..3).each do |i| ... end`
