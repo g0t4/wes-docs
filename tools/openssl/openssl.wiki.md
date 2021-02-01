@@ -8,6 +8,8 @@ General pages from wiki
 
 See [commands](./commands) for split out pages
 
+I am a fan of the [CLI wiki docs](https://wiki.openssl.org/index.php/Command_Line_Utilities)
+
 ### [`libcrypto`](https://wiki.openssl.org/index.php/Libcrypto_API)
 
 - cryptography library
