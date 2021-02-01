@@ -20,3 +20,4 @@
     - B `decrypts` the `ciphertext` from A using B's `private-key`
     - A can `sign` a `plaintext` message using A's `private-key`
     - Anyone can `verify` the `ciphertext` signature with A's `public-key` -- this doesn't mean anything about the identity of A as an attacker could've stolen a `key` and be impersonating them.
+- `PEM` - `Privacy-Enhanced Mail` format
