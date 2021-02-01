@@ -3,6 +3,13 @@
 - perl wrapper script for `openssl`
 - **to simplify commmon certificate operations**
 
+- I've found this useful just to read how it uses underlying `openssl` commands... 
+  - Found a copy `https://github.com/openssl/openssl/blob/master/apps/CA.pl.in`
+
+## Source for this rocks
+
+- https://github.com/openssl/openssl/blob/master/apps/CA.pl.in
+
 ## relevant FAQs
 
 - [FAQ's "How do I create certificates or certificate requests?"](https://www.openssl.org/docs/faq.html#USER4)
